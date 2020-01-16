@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header, main, footer, div {
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: coral;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    background-image: url(img/right.jpg);
+    background-size: contain;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.leftText {
+    height: 40%;
+    width: 80%;
+    border: 1px solid grey;
+}
+
+.leftList {
+    height: 20%;
+    width: 80%;
+    border: 1px solid grey;
+}
+
+.leftList ul {
+    margin-left: 50px;
+}
+
+.leftTable {
+    height: 20%;
+    width: 80%;
+    border: 1px solid grey;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.right div {
+    height: 94%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.rightImg {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: chartreuse;
+}
+
+footer .footerText {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footerText {
+    width: 10%;
+    height: 40px;
+    border: 1px solid grey;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
